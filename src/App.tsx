@@ -1,17 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Menu from './assets/images/svgs/Menu.svg'
+import Background from './assets/images/svgs/Background.svg'
+import Dashboard from './Dashboard';
+import useStyles from './components/Navbar/Navbar.styles';
 
 function App() {
+  const classes = useStyles({});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <main className={classes.root} style={{height:"100vh"}} >
+      <Dashboard />
+    </main>
   );
 }
 
