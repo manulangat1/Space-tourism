@@ -8,8 +8,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundImage: "url(" + `${Background}` + ")",
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
-        // height
+        backgroundRepeat: 'no-repeat',
+        display:"flex",
+        flexDirection:"column"
     },
     Menus:{
         zIndex:999,

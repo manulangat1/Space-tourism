@@ -10,7 +10,7 @@ const  Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         
-        <AppBar position="fixed" style={{background:"transparent" , boxShadow:"none"}}>
+        <AppBar position="sticky" style={{background:"transparent" , boxShadow:"none",height:"4rem"}}>
             <Toolbar className={classes.toolbar}>
                 {/* <Container> */}
                 <Grid container>
